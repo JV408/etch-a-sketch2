@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectSize {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 75px;
+}
+
+.board {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonsContainer {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.square {   
+    border: 1px solid black;
+    box-sizing: border-box;
+}
